@@ -9,7 +9,7 @@ int main()
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
             if(n-i<=j-1){
-                printf("%d ",j-n+i);
+                printf("%d ",j-(n-i));
             }
             else{
                 printf("  ");
