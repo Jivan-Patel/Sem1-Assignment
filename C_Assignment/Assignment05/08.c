@@ -6,10 +6,22 @@ int main()
     scanf("%d",&n);
 
     for(int row=1; row<=n; row++){
-        for(int col=1; col<=row; col++){
-            printf("%d ",col);
+        for(int col=1; col<=n; col++){
+            if(row>=col){
+                printf("%d ",col);
+            }
+            else{
+                printf("  ");
+            }
         }
         printf("\n");
     }
+
+    // for(int row=1; row<=n; row++){
+    //     for(int col=1; col<=row; col++){
+    //         printf("%d ",col);
+    //     }
+    //     printf("\n");
+    // }
     return 0;
 }
