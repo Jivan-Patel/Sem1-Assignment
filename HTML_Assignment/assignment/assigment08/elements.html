@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Showcase</title>
+</head>
+<body id="top">
+    <hr>
+    <header>
+        <h1>HTML Elements Showcase – Inline vs Block</h1>
+        <p>
+            HTML elements are divided into block and inline types to organize how content appears on a webpage. Block elements, such as &lt;div&gt;, &lt;p&gt;, or headings, always start on a new line and stretch across the full width, making them useful for structuring the main layout. Inline elements, like &lt;span&gt;, &lt;a&gt;, or &lt;strong&gt;, do not break the text flow; instead, they only occupy as much space as their content needs, making them ideal for styling or linking within a line of text. This division helps developers control both the overall structure and the finer details of web content.
+        </p> 
+        <nav>
+            <a href="#block_element">Block Elements</a>&nbsp;&nbsp;
+            <a href="#inline_element">Inline Elements</a>&nbsp;&nbsp;
+            <a href="#comparison">Comparison between both</a>&nbsp;&nbsp;
+        </nav>       
+    </header><hr>
+    <section id="block_element">
+        <h2>Block Elements</h2>
+
+        <div>This is div tag</div>
+        <p>A generic container used to group other elements. It doesn’t add meaning but is super useful for layout and styling with CSS.</p><br>
+
+        <p>This is Paragraph tag</p>
+        <p>Defines a paragraph. Always starts on a new line and creates space before and after the text.</p><br>
+
+        <section>This is a section tag</section>
+        <p>Defines a section of a webpage, like a chapter or topic group. Helps in dividing content meaningfully.</p><br>
+
+        <aside>This is aside tag</aside>
+        <p>For side content, like ads, sidebars, or extra notes.</p><br>
+
+        <article>This is an article tag</article>
+        <p>Used for self-contained content like a blog post, news story, or forum entry.</p><br>
+
+        <header>This is header tag</header>
+        <p>Defines the header area of a webpage or section (usually contains logo, nav, title).</p><br>
+
+        <nav>This is a navigation tag</nav>
+        <p>Specifically for navigation links.</p><br>
+
+        <table>
+            <tr>
+                <td>This is table</td>
+            </tr>
+        </table>
+        <p>Used to create tables; the entire table is block-level.</p><br>
+
+        <blockquote>This is a block quote</blockquote>
+        <p>For longer quotations, usually indented.</p><br>
+
+        <address>This is an address tag</address>
+        <p>Represents contact information (like an address, email, or phone number).</p><br>
+    </section><hr>
+
+    <section id="inline_element">
+        <h2>Inline Elements</h2>
+        <p>This is <span>span</span>tag.</p>
+        <p>Span is an inline container with no new line.</p><br>
+
+        <p>This is an <a href="https://www.example.com">anchor</a> tag.</p>
+        <p>Hyperlink (used to link to other pages or sections).</p><br>
+
+        <p>This is <strong>Strong </strong>tag.</p>
+        <p>Makes text bold and gives it importance.</p><br>
+
+        <p>This is <b>Bold</b> tag</p>
+        <p>Bold text (without semantic importance like strong).</p><br>
+
+        <p>This is <em>em </em>tag.</p>
+        <p>Emphasizes text, usually shown in italics.</p><br>
+
+        <p>This is <i>italic </i>tag.</p>
+        <p>Italic text (without semantic importance like em).</p><br>
+
+        <p>This is <u>underline</u> tag.</p>
+        <p>This is use to underlines text.</p><br>
+
+        <p>This is an <abbr title="Abbreviation">abbr</abbr> tag</p>
+        <p>Represents an abbreviation, can show a tooltip on hover with title.</p><br>
+
+        <p>This is <cite>cite</cite> tag.</p>
+        <p>Used to reference a title of a work (like a book, movie, article).</p><br>
+
+        <p>This is <mark>mark</mark> tag.</p>
+        <p>Highlights text with a yellow background by default.</p><br>
+
+        <p> <q>This whole line is in quote tag.</q></p>
+        <p>It is use to write short inline quotation.</p>   
+    </section><hr>
+
+    <section id="comparison">
+        <h2>Inline vs Block Comparison</h2>
+
+        <table border="1">
+            <caption>Differences Between Inline and Block Elements</caption>
+            <tr>
+                <th>Inline Elements</th>
+                <th>Block Elements</th>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;</td>
+                <td>&lt;span&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>&lt;a&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; to &lt;h6&gt; </td>
+                <td>&lt;b&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt; and &lt;ol&gt;</td>
+                <td>&lt;i&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;blockquote&gt;</td>
+                <td>&lt;abbr&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>&lt;code&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;section&gt;</td>
+                <td>&lt;strong&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;address&gt;</td>
+                <td>&lt;em&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;nav&gt;</td>
+                <td>&lt;u&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;aside&gt;</td>
+                <td>&lt;mark&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;main&gt;</td>
+                <td>&lt;cite&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;header&gt;</td>
+                <td>&lt;q&gt;</td>
+            </tr>            
+        </table><br>
+    </section><hr>
+    <footer>
+        <nav>
+            <a href="#top">Back to top</a>
+        </nav>
+    </footer><hr>
+</body>
+</html>

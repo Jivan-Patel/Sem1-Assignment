@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h1>CodingGita Student Registration Form</h1>
+    <p>Please fill out the form below to register for the CodingGita MERN Stack Program.</p>
+
+    <form method="post" action="#">
+
+        <fieldset>
+            <legend>Persnol Information</legend>
+            <label for="name">Full Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name"><br><br>
+
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email"><br><br>
+
+            <label for="">Gender : </label>
+            <input type="radio" name="Gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="dob">Date of Birth : </label>
+            <input type="date" name="dob" id="dob"><br><br>
+            
+            <label for="address">Address : </label><br>
+            <textarea name="address" id="address" cols="30" rows="10"
+                placeholder="Enter Your Address here..."></textarea><br><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Password</legend>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" placeholder="Enter your Password"><br><br>
+            <label for="con_password">Conform Password : </label>
+            <input type="password" name="con_password" id="con_password" placeholder="Renter your Password"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobbies and Courses</legend>
+
+            <label>Hobbies : </label>
+            <input type="checkbox" name="hobbies" id="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" name="hobbies" id="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" name="hobbies" id="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" name="hobbies" id="music">
+            <label for="music">Music</label><br><br>
+            
+            <label for="color">Favorite Colour : </label>
+            <input type="color" name="color" id="color"><br><br>
+            
+            <label for="course">Course Selection : </label>
+            <select name="Course" id="course">
+                <option value="MERN Stack">MERN Stack</option>
+                <option value="DSA">DSA</option>
+                <option value="Web Development">Web Development</option>
+            </select><br><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Study Details</legend>
+            <label for="study_hour">Preferred Study Hours : </label>
+            <input type="range" name="study_hour" id="study_hour"><br><br>
+        
+            <label for="study_time">Preferred Study Time </label>
+            <input type="time" name="study_time" id="study_time"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Portfolio</legend>
+            <label for="photo">Upload your photo : </label>
+            <input type="file" name="photo" id="photo"><br><br>
+        
+            <label for="portfolio">Portfolio Website</label>
+            <input type="url" name="portfolio" id="portfolio" placeholder="Enter url of your portfolio webpage"><br><br>
+        </fieldset>
+
+        <label for="search">Search Interests : </label>
+        <input type="search" name="search" id="search"><br><br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
