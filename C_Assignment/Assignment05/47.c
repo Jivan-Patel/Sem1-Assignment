@@ -5,13 +5,15 @@ int main()
     int n;
     scanf("%d", &n);
     
+    int num=2;
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
-            if(i<=j){
-                printf("*");
+            if(i>=j){
+                printf("%d ",num);
+                num=num+2;
             }
             else{
-                printf(" ");
+                printf("  ");
             }
         }
         printf("\n");

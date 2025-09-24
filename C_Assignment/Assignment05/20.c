@@ -4,12 +4,17 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int n2= 'A'+ n - 1;
-    int num='A';
-    for(int i='A'; i<=n2; i++){
-        for(int j='A';j<=i; j++){
-            printf("%c ", num);
-            num++;
+   
+    int c='A';
+    for(int i=1; i<=n; i++){
+        for(int j=1;j<=n; j++){
+            if(i>=j){
+                printf("%c ", c);
+                c++; 
+                if(c>'Z'){
+                    c='A';
+                }
+            }
         }
         printf("\n");
     }

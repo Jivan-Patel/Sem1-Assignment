@@ -7,8 +7,8 @@ int main()
     
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
-            if(i<=j){
-                printf("*");
+            if(i== (n+1)/2 || j== (n+1)/2 ){
+                printf("%d",j);
             }
             else{
                 printf(" ");

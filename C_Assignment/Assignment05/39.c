@@ -9,11 +9,11 @@ int main()
         int num='A';
         for(int j=1; j<=n; j++){
             if(i<=j){
-                printf("%c ", num);
+                printf("%c", num);
                 num++;
             }
             else{
-                printf("  ");
+                printf(" ");
             }
         }
         printf("\n");
